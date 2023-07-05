@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+select {
+  height: fit-content;
+  width: 8rem;
+  margin-top: 4rem;
+}
+.head {
+  font-size: 50px;
+  font-weight: 600;
+  color: #c0c0c0;
+  font-family: monospace;
+}
+
+.container {
+  border: 1px solid black;
+
+  width: 12rem;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name {
+  font-size: 30px;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.item {
+  font-size: 20px;
+}
